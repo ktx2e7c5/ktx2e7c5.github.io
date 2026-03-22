@@ -48,3 +48,16 @@ li:last-child { border-bottom: none; }
 .essay-page {
   background: #edf6f5;
 }
+
+hr {
+  border: none;
+  border-top: 0.5px solid #b8d8d5;
+  margin: 48px 0 24px;
+}
+
+.notes {
+  font-size: 16px;
+  color: #9abebb;
+  font-style: italic;
+  line-height: 1.7;
+}
