@@ -1,20 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
 
 body {
-  font-family: 'Source Serif 4', serif;
+  font-family: 'Lora', serif;
+  background: #d6eae8;
   max-width: 650px;
   margin: 60px auto;
-  padding: 0 20px;
-  font-size: 20px;
-  line-height: 1.7;
-  color: #222;
-  background: #fff;
+  padding: 0 24px;
+  font-size: 19px;
+  line-height: 1.75;
+  color: #1e3533;
 }
 
-a {
-  color: #222;
-}
+a { color: #1e3533; text-decoration: none; }
+a:hover { text-decoration: underline; }
 
-h1, h2 {
+h1 { font-size: 28px; font-weight: 600; margin-bottom: 40px; }
+
+h2 {
+  font-size: 13px;
   font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #7aaba7;
+  margin: 0 0 10px;
+}
+
+ul { list-style: none; padding: 0; margin: 0; }
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 8px 0;
+  border-bottom: 0.5px solid #b8d8d5;
+}
+
+li:last-child { border-bottom: none; }
+
+.date {
+  font-size: 13px;
+  color: #7aaba7;
+  white-space: nowrap;
+  margin-left: 16px;
 }
