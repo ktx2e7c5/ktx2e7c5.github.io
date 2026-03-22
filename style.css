@@ -22,7 +22,11 @@ h2 {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: #7aaba7;
-  margin: 0 0 10px;
+  margin: 0 0 24px;
+}
+
+h2 a {
+  color: #7aaba7;
 }
 
 ul { list-style: none; padding: 0; margin: 0; }
@@ -42,7 +46,6 @@ li:last-child { border-bottom: none; }
   color: #7aaba7;
   white-space: nowrap;
   margin-left: 16px;
-  
 }
 
 .essay-page {
@@ -55,9 +58,6 @@ hr {
   margin: 48px 0 24px;
 }
 
-.notes {
-  font-size: 16px;
-  color: #9abebb;
-  font-style: italic;
-  line-height: 1.7;
-}
+p.notes {
+  font-size: 16px !important;
+  color: #9abebb !important;
