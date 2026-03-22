@@ -42,4 +42,9 @@ li:last-child { border-bottom: none; }
   color: #7aaba7;
   white-space: nowrap;
   margin-left: 16px;
+  
+}
+
+.essay-page {
+  background: #edf6f5;
 }
